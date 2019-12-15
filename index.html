@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Blockchain</section>
+				<section>
+					<section>History</section>
+					<section>Merkle Tree<br>
+						<img src="src/Hash_tree.png">
+					</section>
+					<section><img src="src/bitcoin-img.svg"></section>
+				</section>
+				<section>
+					<section>Transfer process<br><img src="src/transfer.png"></section>
+					<section>Dark side of the moon<br><img src="src/dm2.jpg"></section>
+				</section>
+				<section>
+					<section>Spheres of use</section>
+					<section><img src="src/marriage-registration.jpg"></section>
+					<section>BITNATION<br><img src="src/bitnation.png"></section>
+					<section>Electrical voting blockchain<br><img src="src/blockchainvo.jpg"></section>
+					<section>Anonymous<br><img src="src/anonymous_emblem.png"></section>
+					<section><img src="src/smart_contracts.png"></section>
+				</section>
+				<section>Potential</section>
+				<section>Thank you for attention</section>
+			</div>
+		</div>
+
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
